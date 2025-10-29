@@ -1,0 +1,22 @@
+.footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--blue);
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .footer .penguin {
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+    animation: float 3s ease-in-out infinite;
+    font-size: 1.5rem;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
