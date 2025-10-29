@@ -2,24 +2,26 @@
     "name": "nickdoshi-portfolio",
     "version": "1.0.0",
     "private": true,
+    "homepage": "https://nickdoshi.github.io",
     "scripts": {
       "dev": "vite",
       "build": "vite build",
       "preview": "vite preview",
       "predeploy": "npm run build",
-      "deploy": "gh-pages -d dist"
+      "deploy": "gh-pages -d dist",
+      "clean": "rimraf dist node_modules"
     },
     "dependencies": {
-      "framer-motion": "^11.0.0",
       "@studio-freight/lenis": "^1.0.29",
+      "framer-motion": "^11.0.0",
       "react": "^18.2.0",
       "react-dom": "^18.2.0"
     },
     "devDependencies": {
-      "vite": "^5.2.0",
       "@vitejs/plugin-react": "^4.2.0",
-      "gh-pages": "^6.1.0"
-    },
-    "homepage": "https://nickdoshi.github.io"
+      "gh-pages": "^6.3.0",
+      "rimraf": "^5.0.5",
+      "vite": "^5.2.0"
+    }
   }
   
