@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Background Circle -->
+  <circle cx="128" cy="128" r="120" fill="#1E00FF"></circle>
+
+  <!-- Penguin Body -->
+  <path d="M128 50
+           c-35 0 -60 28 -60 75
+           c0 40 25 80 60 80
+           c35 0 60 -40 60 -80
+           c0 -47 -25 -75 -60 -75z" fill="white" stroke="#1E00FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Eyes -->
+  <circle cx="108" cy="110" r="8" fill="#1E00FF"></circle>
+  <circle cx="148" cy="110" r="8" fill="#1E00FF"></circle>
+
+  <!-- Beak -->
+  <path d="M128 125 l10 10 l-10 5 l-10 -5 z" fill="#FFB703"></path>
+
+  <!-- Subtle Shadow -->
+  <ellipse cx="128" cy="210" rx="45" ry="10" fill="rgba(0,0,0,0.1)"></ellipse>
+</svg>
