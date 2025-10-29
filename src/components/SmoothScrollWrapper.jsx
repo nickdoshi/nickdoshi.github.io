@@ -1,4 +1,3 @@
-jsx
 import React, { useEffect } from 'react';
 import Lenis from '@studio-freight/lenis';
 
